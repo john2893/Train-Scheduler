@@ -53,6 +53,8 @@ $( document ).ready(function() {
         $("#first-train-input").val("");
         $("#frequency-input").val("");
     });
+
+    // Tried to work on auto updating the minutes away field.
     function autoTimeChange(){
         database.ref().on('value', function(snapshot){
             snapshot.forEach(function(snapshot){
@@ -66,6 +68,8 @@ $( document ).ready(function() {
         });
     };
     // setInterval(autoTimeChange, 10000);
+    //======================================================
+
 
     database.ref().on('child_added', function(snapshot) {
       
