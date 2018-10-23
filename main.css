@@ -1,0 +1,32 @@
+#bg {
+    position: fixed; 
+    top: -50%; 
+    left: -50%; 
+    width: 200%; 
+    height: 200%;
+  }
+  #bg img {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    margin: auto; 
+    min-width: 50%;
+    min-height: 50%;
+  }
+  .btn {
+    background: rgb(97, 81, 81);
+    color: #fff;
+    border: 2px #000 solid;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+   
+    
+  }
+  
+  .btn:hover {
+    color: #fff;
+    background: #000;
+    border: 2px #ff5252 solid;
+  }
