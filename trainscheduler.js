@@ -102,6 +102,7 @@ $( document ).ready(function() {
 
         // Output to the Table
         var rowLine = $("<tr>").append(
+            // $("<td>").html("<td><button class='delete btn' ><i class='fa fa-trash fa-1' aria-hidden='true'></i></button><button class='update btn'><i class='fa fa-pencil fa-2' aria-hidden='true'></i></button></td>"),
             $("<td>").text(data.trainName),
             $("<td>").text(data.destination),
             $("<td>").text(data.frequency),
